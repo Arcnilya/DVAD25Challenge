@@ -11,7 +11,7 @@ from CTFd.models import (
     db,
 )
 from CTFd.plugins import register_plugin_assets_directory
-from CTFd.plugins.CTFd-DVAD25-Flag import FlagException, get_flag_class
+from CTFd.plugins.DVAD25Flag import FlagException, get_flag_class
 from CTFd.utils.uploads import delete_file
 from CTFd.utils.user import get_ip
 
